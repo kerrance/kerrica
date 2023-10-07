@@ -1,0 +1,27 @@
+:root {
+    --color__off-white: #fffafa;
+    --color__text: #4e5447;
+    --color__green: #4a7c59;
+    --color__mid-green: #8fc0a9;
+    --color__light-green: #c8d5b9;
+    --color__cream: #fefee3;
+    --color__light-pink: #ffc9b9;
+    --color__pink: #ffafcc;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 88%;
+    max-width: 900px;
+    padding: 6%;
+    margin: 0;
+    background-color: var(--color__off-white);
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    color: var(--color__text);
+    line-height: 1.5;
+}
