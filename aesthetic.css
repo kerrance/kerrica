@@ -26,6 +26,10 @@ body {
     line-height: 1.5;
 }
 
+::selection {
+    background-color: var(--color__light-pink);
+}
+
 h1 {
     font-family: 'Quiche Sans', sans-serif;
 }
