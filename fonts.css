@@ -5,19 +5,3 @@
     font-weight: normal;
     font-style: normal;
 }
-
-@font-face {
-    font-family: 'Quiche Sans Bold';
-    src: url('fonts/quichesans-bold-webfont.woff2') format('woff2'),
-        url('fonts/quichesans-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Quiche Sans Italic';
-    src: url('fonts/quichesans-italic-webfont.woff2') format('woff2'),
-        url('fonts/quichesans-italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
