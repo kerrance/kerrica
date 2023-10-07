@@ -23,9 +23,9 @@ body {
     margin: 0;
     background-color: var(--color__off-white);
     font-size: 18px;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Quiche Display', sans-serif;
     color: var(--color__text);
-    line-height: 1.5;
+    line-height: 1.6;
 }
 
 ::selection {
@@ -39,10 +39,46 @@ p {
 }
 
 h1 {
-    font-family: 'Quiche Sans', sans-serif;
     font-size: 2.4rem;
 }
 
 h1:first-of-type {
     margin-top: 0;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+a:link {
+    color: var(--color__mid-green);
+    text-decoration: underline var(--mid-green) 0.1rem;
+    text-underline-offset: 0.1rem;
+}
+
+a:visited {
+    color: var(--color__mid-green);
+}
+
+a:hover,
+a:active {
+    color: var(--color__green);
+    text-decoration: underline var(--color__green) 0.1rem;
+}
+
+a:focus {
+    outline: var(--color__green) auto 1px;
+}
+
+a[href^="tel:"] {
+    font-family: 'Nunito Sans', sans-serif;
+    margin-left: 0.4rem;
+}
+
+ul {
+    padding-left: 1.2rem;
 }
