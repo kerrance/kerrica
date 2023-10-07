@@ -9,15 +9,17 @@
     --color__pink: #ffafcc;
 }
 
-html {
+* {
     margin: 0;
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    width: 88%;
-    max-width: 900px;
-    padding: 6%;
+    padding: 8%;
     margin: 0;
     background-color: var(--color__off-white);
     font-size: 18px;
@@ -28,6 +30,12 @@ body {
 
 ::selection {
     background-color: var(--color__light-pink);
+}
+
+h1,
+h2,
+p {
+    margin: 0.8rem 0;
 }
 
 h1 {
