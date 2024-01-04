@@ -1,85 +1,85 @@
 :root {
-    --color__off-white: #fffafa;
-    --color__text: #4e5447;
-    --color__green: #4a7c59;
-    --color__mid-green: #8fc0a9;
-    --color__light-green: #c8d5b9;
-    --color__cream: #fefee3;
-    --color__light-pink: #ffc9b9;
-    --color__pink: #ffafcc;
+  --color__off-white: #fffafa;
+  --color__text: #4e5447;
+  --color__green: #4a7c59;
+  --color__mid-green: #8fc0a9;
+  --color__light-green: #c8d5b9;
+  --color__cream: #fefee3;
+  --color__light-pink: #ffc9b9;
+  --color__pink: #ffafcc;
 }
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    padding: 8%;
-    margin: 0;
-    background-color: var(--color__off-white);
-    font-size: 18px;
-    font-family: 'Quiche Display', sans-serif;
-    color: var(--color__text);
-    line-height: 1.6;
+  padding: 8%;
+  margin: 0;
+  background-color: var(--color__off-white);
+  font-size: 18px;
+  font-family: "Quiche Display", sans-serif;
+  color: var(--color__text);
+  line-height: 1.6;
 }
 
 ::selection {
-    background-color: var(--color__light-pink);
+  background-color: var(--color__light-pink);
 }
 
 h1,
 h2,
 h3,
 p {
-    margin: 0.8rem 0;
+  margin: 0.8rem 0;
 }
 
 h1 {
-    font-size: 2.4rem;
+  font-size: 2.4rem;
 }
 
 h1:first-of-type {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 h2 {
-    font-size: 1.8rem;
+  font-size: 1.8rem;
 }
 
 h3 {
-    font-size: 1.4rem;
+  font-size: 1.4rem;
 }
 
 a:link {
-    color: var(--color__mid-green);
-    text-decoration: underline var(--mid-green) 0.1rem;
-    text-underline-offset: 0.1rem;
+  color: var(--color__mid-green);
+  text-decoration: underline var(--mid-green) 0.1rem;
+  text-underline-offset: 0.1rem;
 }
 
 a:visited {
-    color: var(--color__mid-green);
+  color: var(--color__mid-green);
 }
 
 a:hover,
 a:active {
-    color: var(--color__green);
-    text-decoration: underline var(--color__green) 0.1rem;
+  color: var(--color__green);
+  text-decoration: underline var(--color__green) 0.1rem;
 }
 
 a:focus {
-    outline: var(--color__green) auto 1px;
+  outline: var(--color__green) auto 1px;
 }
 
 a[href^="tel:"] {
-    font-family: 'Nunito Sans', sans-serif;
-    margin-left: 0.4rem;
+  font-family: "Nunito Sans", sans-serif;
+  margin-left: 0.4rem;
 }
 
 ul {
-    padding-left: 1.2rem;
+  padding-left: 1.2rem;
 }
