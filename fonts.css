@@ -1,7 +1,6 @@
 @font-face {
-    font-family: 'Quiche Display';
-    src: url('fonts/QuicheDisplay-Regular.woff2') format('woff2'),
-        url('fonts/QuicheDisplay-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Quiche Display";
+  src: url("fonts/QuicheDisplay-Regular.woff2") format("woff2"), url("fonts/QuicheDisplay-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
