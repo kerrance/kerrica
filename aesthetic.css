@@ -28,6 +28,13 @@ body {
   line-height: 1.6;
 }
 
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #24241f;
+    color: var(--color__cream);
+  }
+}
+
 ::selection {
   background-color: var(--color__light-pink);
 }
