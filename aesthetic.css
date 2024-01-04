@@ -89,3 +89,57 @@ a[href^="tel:"] {
 ul {
   padding-left: 1.2rem;
 }
+
+ul.dress-code {
+  padding-left: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+ul.dress-code li {
+  display: inline-block;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 100%;
+  color: transparent;
+  user-select: none;
+}
+
+ul.dress-code li.brown {
+  background-color: #ad795b;
+}
+
+ul.dress-code li.peach {
+  background-color: #ffc9b9;
+}
+
+ul.dress-code li.light-green {
+  background-color: #c8d5b9;
+}
+
+ul.dress-code li.dark-green {
+  background-color: #4a7c59;
+}
+
+ul.dress-code li.pink {
+  background-color: #ffafcc;
+}
+
+ul.dress-code li.maroon {
+  background-color: #800080;
+}
+
+ul.dress-code li.orange {
+  background-color: #f9943b;
+}
+
+ul.dress-code li.dark-brown {
+  background-color: #745e59;
+}
+
+ul.dress-code li.blue {
+  background-color: #2f5972;
+}
+
+.tooltip {
+}
