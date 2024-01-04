@@ -83,7 +83,6 @@ a:focus {
 }
 
 a[href^="tel:"] {
-  font-family: "Nunito Sans", sans-serif;
   margin-left: 0.4rem;
 }
 
