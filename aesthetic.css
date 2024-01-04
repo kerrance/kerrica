@@ -105,12 +105,16 @@ ul.dress-code li {
   user-select: none;
 }
 
+ul.dress-code li.orange {
+  background-color: #f9943b;
+}
+
 ul.dress-code li.brown {
   background-color: #ad795b;
 }
 
-ul.dress-code li.peach {
-  background-color: #ffc9b9;
+ul.dress-code li.dark-brown {
+  background-color: #745e59;
 }
 
 ul.dress-code li.light-green {
@@ -121,25 +125,18 @@ ul.dress-code li.dark-green {
   background-color: #4a7c59;
 }
 
+ul.dress-code li.blue {
+  background-color: #2f5972;
+}
+
+ul.dress-code li.peach {
+  background-color: #ffc9b9;
+}
+
 ul.dress-code li.pink {
   background-color: #ffafcc;
 }
 
 ul.dress-code li.maroon {
   background-color: #800080;
-}
-
-ul.dress-code li.orange {
-  background-color: #f9943b;
-}
-
-ul.dress-code li.dark-brown {
-  background-color: #745e59;
-}
-
-ul.dress-code li.blue {
-  background-color: #2f5972;
-}
-
-.tooltip {
 }
