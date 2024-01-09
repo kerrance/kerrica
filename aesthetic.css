@@ -169,3 +169,21 @@ ul.dress-code li {
     gap: 1rem;
   }
 }
+
+.motif {
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+}
+
+@media screen and (min-width: 640px) {
+  .motif {
+    width: 10%;
+  }
+}
+
+@media print {
+  .motif {
+    width: 0;
+  }
+}
