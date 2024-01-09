@@ -75,11 +75,25 @@ p {
 }
 
 h1 {
-  font-size: 2.4rem;
+  font-size: 3rem;
+  margin-top: 0;
+  width: fit-content;
+  position: relative;
 }
 
-h1:first-of-type {
-  margin-top: 0;
+@media screen and (min-width: 640px) {
+  h1:after {
+    content: "";
+    height: 25%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background-image: url("images/underline.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
 h2 {
