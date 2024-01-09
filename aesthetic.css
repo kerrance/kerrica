@@ -32,6 +32,22 @@ body {
   body {
     max-width: 60%;
   }
+
+  .mobile-only {
+    display: none;
+  }
+}
+
+@media print {
+  body {
+    width: 100%;
+    max-width: none;
+    padding: 0;
+  }
+
+  .screen-only {
+    display: none;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
