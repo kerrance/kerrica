@@ -155,11 +155,17 @@ ul {
 
 ul.dress-code {
   padding-left: 0;
-  display: flex;
-  gap: 1rem;
+  display: inline;
 }
 
 ul.dress-code li {
   display: inline-block;
   user-select: none;
+}
+
+@media screen and (min-width: 640px) {
+  ul.dress-code {
+    display: flex;
+    gap: 1rem;
+  }
 }
