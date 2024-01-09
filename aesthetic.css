@@ -78,11 +78,14 @@ p {
 h1 {
   font-size: 3rem;
   margin-top: 0;
-  width: fit-content;
-  position: relative;
 }
 
 @media screen and (min-width: 640px) {
+  h1 {
+    width: fit-content;
+    position: relative;
+  }
+
   h1:after {
     content: "";
     height: 25%;
